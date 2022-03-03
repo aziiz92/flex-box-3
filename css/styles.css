@@ -81,6 +81,23 @@ main .container .card {
 }
 main .container .card:first-child {
   flex-basis: 100%;
+  display: flex;
+  align-items: flex-end;
+}
+main .container .card:first-child .card-content {
+  background-color: #C4C4C4;
+  flex: 1;
+  height: 40px;
+  border: 1px solid #6ACFCF;
+}
+main .container .card:first-child .card-content:nth-child(2) {
+  height: 60px;
+}
+main .container .card:first-child .card-content:nth-child(3) {
+  height: 80px;
+}
+main .container .card:first-child .card-content:nth-child(4) {
+  height: 50px;
 }
 main .container .card:last-child {
   flex-basis: 100%;
